@@ -12,7 +12,7 @@ public class GreetingController {
 
     @GetMapping
     public String viewGreeting (Model model) {
-        model.addAttribute("name", "Bill");
+        model.addAttribute("name", "Billllllllll");
         return "greeting";
     }
 }
